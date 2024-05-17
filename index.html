@@ -5,17 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Havana Tecnologia</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Havana Tecnologia</h1>
-        <p>Deixe seu nome, telefone e email para que possamos entrar em contato.</p>
+    <header>
+        <div class="logo">Havana Tecnologia</div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Bem-vindo à Havana Tecnologia</h1>
+            <p>Inovação e Futuro ao seu Alcance</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Na Havana Tecnologia, estamos comprometidos em oferecer soluções tecnológicas inovadoras que transformam a forma como você faz negócios. Nossa equipe de especialistas está aqui para ajudar a levar sua empresa ao próximo nível.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Serviços</h2>
+        <div class="service-item">
+            <h3>Desenvolvimento de Software</h3>
+            <p>Criamos software sob medida para atender às necessidades específicas do seu negócio.</p>
+        </div>
+        <div class="service-item">
+            <h3>Consultoria em TI</h3>
+            <p>Nossos consultores ajudam a otimizar sua infraestrutura de TI para máxima eficiência.</p>
+        </div>
+        <div class="service-item">
+            <h3>Suporte Técnico</h3>
+            <p>Oferecemos suporte técnico especializado para garantir que seus sistemas funcionem perfeitamente.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contato</h2>
         <form action="#" method="post">
             <input type="text" name="name" placeholder="Nome" required>
             <input type="tel" name="phone" placeholder="Telefone" required>
             <input type="email" name="email" placeholder="Email" required>
             <button type="submit">Enviar</button>
         </form>
-    </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Havana Tecnologia. Todos os direitos reservados.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
+
